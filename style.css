@@ -12,6 +12,21 @@ textarea {
     color: #1a1d23;
 }
 
+header {
+    min-height: 64px;
+    background-color: #382f76;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 8px 10%;
+}
+
+header a {
+    color: #fff;
+    padding: 8px 16px;
+}
+
 section {
     padding: 36px 15%;
 }
@@ -22,6 +37,25 @@ section {
 
 .green-background {
     background-color: rgba(149, 193, 171, 0.3);
+}
+
+#presentation {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#presentation img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: #382f76 solid 5px;
+    margin-right: 24px;
+}
+
+#presentation div {
+    flex: 1;
 }
 
 h1 {
@@ -84,4 +118,39 @@ button {
     font-size: 16px;
     font-weight: 700;
     cursor: pointer;
+}
+
+footer {
+    color: #fff;
+    background: #382f76;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 16px 10%;
+}
+
+footer p {
+    padding: 16px 0;
+}
+
+footer div,
+footer a {
+    display: flex;
+    align-items: center;
+}
+
+footer img {
+    margin: 0 16px;
+    height: 48px;
+}
+
+a,
+button {
+    transition: opacity 0.2s;
+}
+
+a:hover,
+button:hover {
+    opacity: 0.75;
 }

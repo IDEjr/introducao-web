@@ -16,12 +16,21 @@
 </head>
 
 <body>
-    <section>
+    <header>
+        <a href="#about-me">Sobre mim</a>
+        <a href="#studies">O que estou estudando?</a>
+        <a href="#experience">Experiências</a>
+        <a href="#contact">Entre em contato</a>
+    </header>
+    <section id="presentation">
+        <img src="images/ide.png" alt="Nome do aluno">
+        <div class="student-info">
             <h1 class="title">Nome do aluno</h1>
             <p>email@mail.com</p>
             <p>Estudante de Engenharia da Computação na UFRGS</p>
+        </div>
     </section>
-    <section class="green-background">
+    <section id="about-me" class="green-background">
         <h2 class="title">Sobre mim</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
@@ -30,7 +39,7 @@
             arcu
             cursus. Bibendum arcu vitae elementum curabitur vitae nunc sed. </p>
     </section>
-    <section>
+    <section id="studies">
         <h2 class="title">O que estou estudando?</h2>
         <fieldset>
             <input class="contact-input" id="git" type="checkbox">
@@ -45,14 +54,14 @@
             <label for="css">CSS</label>
         </fieldset>
     </section>
-    <section class="green-background">
+    <section id="experience" class="green-background">
         <h2 class="title">Experiências</h2>
         <ul>
             <li>Destaque</li>
             <li>Desenvolvedor na Empresa Júnior IDE</li>
         </ul>
     </section>
-    <section>
+    <section id="contact">
         <h2 class="title">Entre em contato</h2>
         <form>
             <fieldset class="input-container">
@@ -70,6 +79,24 @@
             <button type="submit" class="submit"> Enviar </button>
         </form>
     </section>
+    <footer>
+        <p>Feito por Nome do Aluno, 2021</p>
+        <div>
+            <a href="https://github.com/IDEjr" target="_blank" rel="noopener noreferrer">
+                <img alt="Github" src="images/github.png" />
+            </a>
+            <a href="https://www.linkedin.com/company/empresa-j%C3%BAnior-ide/" target="_blank"
+                rel="noopener noreferrer">
+                <img alt="LinkedIn" src="images/linkedin.png" />
+            </a>
+            <a href="https://www.instagram.com/ide_jr/" target="_blank" rel="noopener noreferrer">
+                <img alt="Instagram" src="images/instagram.png" />
+            </a>
+            <a href="https://www.facebook.com/idejr" target="_blank" rel="noopener noreferrer">
+                <img alt="Facebook" src="images/facebook.png" />
+            </a>
+        </div>
+    </footer>
 </body>
 
 </html>
