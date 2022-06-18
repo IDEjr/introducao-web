@@ -7,6 +7,6 @@ Duração aproximada: 35 minutos
 
 Link para a apresentação e mais detalhes: https://drive.google.com/drive/u/1/folders/1SvUeOPPOep2gpUhQZ559-F5ef8m1kY4c
 
-Authors:
-Júlia D. Craide
+Authors:\
+Júlia D. Craide\
 Gabriel Chimifosk
