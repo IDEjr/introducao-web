@@ -12,22 +12,23 @@ textarea {
     color: #1a1d23;
 }
 
-header {
+.header {
     min-height: 64px;
     background-color: #382f76;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    text-align: center;
     padding: 8px 10%;
 }
 
-header a {
+.header a {
     color: #fff;
     padding: 8px 16px;
 }
 
-section {
+.header-links {
+    padding-top: 10px;
+}
+
+.informations {
     padding: 36px 15%;
 }
 
@@ -39,23 +40,12 @@ section {
     background-color: rgba(149, 193, 171, 0.3);
 }
 
-#presentation {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-#presentation img {
+.presentation img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     border: #382f76 solid 5px;
     margin-right: 24px;
-}
-
-#presentation div {
-    flex: 1;
 }
 
 h1 {
@@ -74,41 +64,6 @@ ul {
     padding-left: 24px;
 }
 
-form {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-fieldset {
-    width: 100%;
-    max-width: 700px;
-    border: none;
-}
-
-.input-container label {
-    font-size: 16px;
-    font-weight: 600;
-    color: #382f76;
-    margin-bottom: 8px;
-}
-
-.input-container .input {
-    width: 100%;
-    background: #f0f0f5;
-    border: 0;
-    border-radius: 8px;
-    padding: 16px 24px;
-    margin-bottom: 16px;
-    font-size: 16px;
-}
-
-textarea.input {
-    min-height: 100px;
-    resize: vertical;
-}
-
 button {
     background-color: #382f76;
     border-radius: 8px;
@@ -120,27 +75,19 @@ button {
     cursor: pointer;
 }
 
-footer {
+.footer {
     color: #fff;
     background: #382f76;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
     padding: 16px 10%;
+    text-align: center;
 }
 
-footer p {
+.footer p {
+    text-align: center;
     padding: 16px 0;
 }
 
-footer div,
-footer a {
-    display: flex;
-    align-items: center;
-}
-
-footer img {
+.footer img {
     margin: 0 16px;
     height: 48px;
 }
