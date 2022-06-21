@@ -4,111 +4,78 @@
     padding: 0;
 }
 
-body,
-button,
-input,
-textarea {
+body {
     font-family: "Poppins", sans-serif;
     color: #1a1d23;
 }
 
 .header {
-    min-height: 64px;
     background-color: #382f76;
     text-align: center;
-    padding: 8px 10%;
+    padding: 8px 0px;
 }
 
 .header a {
-    color: #fff;
-    padding: 8px 16px;
+    color: white;
+    padding: 0px 16px;
 }
 
-.header-links {
-    padding-top: 10px;
+.header a:hover {
+    opacity: 0.75;
 }
 
-.informations {
+.seção {
     padding: 36px 15%;
 }
 
-.title {
-    color: #382f76;
-}
-
-.green-background {
+.seção-verde {
+    padding: 36px 15%;
     background-color: rgba(149, 193, 171, 0.3);
 }
 
-.presentation img {
+.seção img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: #382f76 solid 5px;
-    margin-right: 24px;
-}
-
-h1 {
-    font-size: 32px;
-}
-
-section h2 {
-    margin-bottom: 8px;
-}
-
-p {
-    text-align: justify;
-}
-
-ul {
-    padding-left: 24px;
+    border: purple solid 5px;
 }
 
 input {
     width: 50%;
-    background: #f0f0f5;
     border: 0;
     border-radius: 8px;
     padding: 16px 24px;
     margin-top: 16px;
-    margin-right: 24px;
     font-size: 16px;
 }
 
 button {
     background-color: #382f76;
-    border-radius: 8px;
-    border: none;
+    color: white;
     padding: 16px 54px;
-    color: #fff;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-left: 16px;
     cursor: pointer;
 }
 
+button:hover {
+    opacity: 0.75;
+}
+
 .footer {
-    color: #fff;
-    background: #382f76;
-    padding: 16px 10%;
+    background-color: #382f76;
     text-align: center;
+    padding: 16px 0px;
 }
 
 .footer p {
-    text-align: center;
-    padding: 16px 0;
+    color: white;
 }
 
 .footer img {
-    margin: 0 16px;
     height: 48px;
-}
-
-a,
-button {
-    transition: opacity 0.2s;
-}
-
-a:hover,
-button:hover {
-    opacity: 0.75;
+    width: 48px;
+    margin: 16px 16px;
 }
